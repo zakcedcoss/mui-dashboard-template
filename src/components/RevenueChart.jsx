@@ -17,10 +17,10 @@ const data = [
     { name: "June", Total: 1700 },
 ];
 
-const RevenueChart = ({ aspect, title }) => {
+const RevenueChart = ({ title }) => {
     return (
-        <Card variant="elevation">
-            <Box>
+        <Card variant="outlined" sx={{ padding: "1rem", }}>
+            <Box flexDirection="column" display="flex" gap={3}>
                 <Typography variant="h6" className="title">{title}</Typography>
                 <ResponsiveContainer width="100%" aspect={2 / 1}>
                     <AreaChart

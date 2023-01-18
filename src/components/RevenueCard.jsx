@@ -4,7 +4,7 @@ import { CurrencyRupee, KeyboardArrowDown, KeyboardArrowUp } from "@mui/icons-ma
 
 const RevenueCard = () => {
     return (
-        <Card variant="elevation" sx={{ padding: "1rem", }}>
+        <Card variant="outlined" sx={{ padding: "1rem", }}>
             <Box flexDirection="column" display="flex" gap={3}>
                 <Box sx={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
                     <Typography color="black">Total Revenue</Typography>
