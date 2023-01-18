@@ -38,7 +38,7 @@ const Layout = ({ children }) => {
                 anchor="left"
             >
                 <Toolbar>
-                    <Typography>LOGO</Typography>
+                    <Typography variant='h4'>LoGo</Typography>
                 </Toolbar>
                 <Divider />
                 <List>
